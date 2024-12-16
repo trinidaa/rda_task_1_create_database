@@ -6,7 +6,7 @@ CREATE TABLE Products (
     ProductID INT AUTO_INCREMENT,
     Name VARCHAR(50),
     Description VARCHAR(50),
-    Price INT,
+    Price DECIMAL(10,2),
     WarehouseAmount INT,
     PRIMARY KEY (ProductID)
 );
